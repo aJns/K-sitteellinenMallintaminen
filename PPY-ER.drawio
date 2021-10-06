@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T15:06:22.598Z" agent="5.0 (Windows)" etag="H4aBOinHD04D_D_nnTzp" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T15:57:46.720Z" agent="5.0 (Windows)" etag="XvwfhxMM7n8DgF4FZDgw" version="15.3.8" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER Malli">
-    <mxGraphModel dx="2370" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="981" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,7 +239,7 @@
         <mxCell id="zFyLHHzCs4TzFvDmoegh-33" value="Vuosi" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="135" y="625" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zFyLHHzCs4TzFvDmoegh-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cWKgkjVp8EU27pou5Kx9-11" target="zFyLHHzCs4TzFvDmoegh-27">
+        <mxCell id="zFyLHHzCs4TzFvDmoegh-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="cWKgkjVp8EU27pou5Kx9-11" target="zFyLHHzCs4TzFvDmoegh-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="325.5" y="815" as="sourcePoint" />
             <mxPoint x="336.5" y="795" as="targetPoint" />
@@ -352,7 +352,7 @@
             <mxPoint x="16" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFyLHHzCs4TzFvDmoegh-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="zFyLHHzCs4TzFvDmoegh-57" source="cWKgkjVp8EU27pou5Kx9-11">
+        <mxCell id="zFyLHHzCs4TzFvDmoegh-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" target="zFyLHHzCs4TzFvDmoegh-57" source="cWKgkjVp8EU27pou5Kx9-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="1003" as="sourcePoint" />
             <mxPoint x="279" y="1073" as="targetPoint" />
@@ -432,6 +432,222 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint y="28" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QAfRy7RAp1WXb8EBR2tK" name="Tietokantamalli">
+    <mxGraphModel dx="1422" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-0" />
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-1" parent="8X1UbPL5I5wBAcbN6JK5-0" />
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-2" value="Käyttäjä" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="170" y="350" width="160" height="116" as="geometry">
+            <mxRectangle x="140" y="650" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-3" value="Käyttäjätunnus" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-2">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-4" value="salasana" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-2">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-5" value="Ylläpitäjä?" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-2">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-15" value="Jäsen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="770" y="322" width="160" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-16" value="Jäsennumero" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-15">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-17" value="Nimi" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-15">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-18" value="Osoite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-15">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-24" value="Puhelinnumero" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-15">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-23" value="Liittymispvä" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-15">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="8X1UbPL5I5wBAcbN6JK5-13" target="8X1UbPL5I5wBAcbN6JK5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-21" value="" style="group" vertex="1" connectable="0" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="450" y="290" width="160" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-11" value="Jäsenen käyttäjä" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-21">
+          <mxGeometry y="86" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-12" value="Jäsennumero" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-11">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-13" value="Käyttäjätunnus" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-11">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-20" value="Vaihtoehtoinen relaatio on toteutettu omana entiteettinään" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-21">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="8X1UbPL5I5wBAcbN6JK5-12" target="8X1UbPL5I5wBAcbN6JK5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-25" value="Jäsenmaksu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="140" y="540" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-26" value="UID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-25">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-29" value="Maksaja" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-25">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-27" value="Vuosi" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-25">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-28" value="Suuruus" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-25">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8X1UbPL5I5wBAcbN6JK5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="8X1UbPL5I5wBAcbN6JK5-29" target="8X1UbPL5I5wBAcbN6JK5-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="611" />
+              <mxPoint x="740" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-0" value="Rahatapahtuma" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="910" y="670" width="160" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-1" value="UID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-2" value="pvm" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-3" value="summa" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-4" value="Maksaja/Maksunsaaja" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-5" value="kommentti" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-6" value="viite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-0">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="8X1UbPL5I5wBAcbN6JK5-26" target="1rtnuytp2YoxJmDFkTmC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-8" value="Toimitila" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="90" y="1050" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-9" value="Osoite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-8">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-10" value="Koko&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-8">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-11" value="Vuokran suuruus" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-8">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-13" target="1rtnuytp2YoxJmDFkTmC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-15" target="1rtnuytp2YoxJmDFkTmC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-19" value="" style="group" vertex="1" connectable="0" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="90" y="710" width="160" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-12" value="Vuokra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-19">
+          <mxGeometry y="110" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-13" value="Viite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-12">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-15" value="Toimitila" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-12">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-14" value="Päiväys" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-12">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-18" value="Erotin tässä vuokran omaksi taulukseen, koska rahatapahtuman ei ole pakko olla vuokra, ja koska toimitila maksaa vuokraa useammin kuin kerran" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-19">
+          <mxGeometry width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-20" value="Aktiviteetti" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="780" y="980" width="160" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-21" value="UID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-22" value="Nimi" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-26" value="Paikka" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-25" value="Alkupvm" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-24" value="Loppupvm" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-27" value="Osallistumismaksu" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-23" value="Kokonaiskuluarvio" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-20">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-28" value="Osallistuminen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="400" y="890" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-29" value="Viite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-28">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-30" value="Aktiviteetti" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-28">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-31" value="Osallistuja" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-28">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-39" value="Yhteiskuljetus" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-28">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-30" target="1rtnuytp2YoxJmDFkTmC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-31" target="8X1UbPL5I5wBAcbN6JK5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-29" target="1rtnuytp2YoxJmDFkTmC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-35" value="Yhteiskuljetus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="405" y="1150" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-36" value="UID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-35">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-37" value="Aktiviteetti" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-35">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-38" value="Tyyppi" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-35">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-43" value="Osallistumismaksu" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1rtnuytp2YoxJmDFkTmC-35">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;dashed=1;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-39" target="1rtnuytp2YoxJmDFkTmC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-41" value="Tässä olen käyttänyt katkoviivaa kertomaan että osallistumiseen ei välttämättä kuulu yhteiskuljetusta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8X1UbPL5I5wBAcbN6JK5-1">
+          <mxGeometry x="340" y="1050" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="1rtnuytp2YoxJmDFkTmC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="8X1UbPL5I5wBAcbN6JK5-1" source="1rtnuytp2YoxJmDFkTmC-37" target="1rtnuytp2YoxJmDFkTmC-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
